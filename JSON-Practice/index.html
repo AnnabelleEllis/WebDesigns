@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with JSON Objects</title>
+</head>
+<body>
+    <script type = text/javascript>
+        const builing_data = `[
+            {
+            'building_id': 1,
+            'building_name':"slt1",
+            'building_type':"building.b_type",
+            'building_address1': "building.address1",
+            'building_address2': "building.address2",
+            'building_address3': "building.address3",
+            'building_image': "building.image_url",
+            'building_latittude': 'lt98.7654',
+            'building_longitude':'lg12.3456',
+            'building_info': "building.info" 
+            },
+            {
+            'building_id': 2,
+            'building_name':"slt1",
+            'building_type':"building.b_type",
+            'building_address1': "building.address1",
+            'building_address2': "building.address2",
+            'building_address3': "building.address3",
+            'building_image': "building.image_url",
+            'building_latittude': 'lt98.7654',
+            'building_longitude':'lg12.3456',
+            'building_info': "building.info" 
+            }
+        ]`
+
+        console.log(JSON.parse(builing_data))
+    </script>
+</body>
+</html>
