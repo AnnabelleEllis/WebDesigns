@@ -12,6 +12,7 @@ body{
 header{
     background: url("/automotive-car-design/images/car-bg.jpg");
     background-size: cover;
+    background-position: center center;
     color: #fff;
     min-height: 100vh;
     display: flex;
